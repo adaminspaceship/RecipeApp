@@ -1,0 +1,20 @@
+PODS:
+  - ModernSearchBar (1.5)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - ModernSearchBar
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ModernSearchBar
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ModernSearchBar: 5dd19c94b1e04f1f83dd9b9950d05153ef2535e5
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 7d4f93b7397c6ce9b45b4512dec34bf05ead8fc7
+
+COCOAPODS: 1.5.3

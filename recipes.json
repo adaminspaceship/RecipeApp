@@ -1,0 +1,46 @@
+{
+    "Recipes" : {
+        "0" : {
+            "Title" : "Chocolate Cake",
+            "Description" : "It will surely make your parents finally love you.",
+            "Ingredients" : ["Chocolate","Milk","Love","Flour"],
+			"PhotoLink" : "https://sugarspunrun.com/wp-content/uploads/2018/09/Best-Chocolate-Cake-Recipe-1-of-1-2.jpg",
+			"ID" : "000000001"
+        },
+        "1" : {
+            "Title" : "Omlet",
+            "Description" : "Have a great start to the day!",
+            "Ingredients" : ["Eggs","Bacon","Sausage"],
+			"PhotoLink" : "https://i0.wp.com/www.manateluguruchulu.com/wp-content/uploads/2017/04/plane-omlet.jpg?resize=600%2C531&ssl=1",
+			"ID" : "000000002"
+        },
+        "2" : {
+            "Title" : "Spaghetti",
+            "Description" : "Amazing pasta, Just plain amazing!",
+            "Ingredients" : ["Spaghetti","Water","Love"],
+            "PhotoLink" : "https://i0.wp.com/slowcookergourmet.net/wp-content/uploads/2018/02/Instant-Pot-Spaghetti-4-of-5.jpg?resize=500%2C500&ssl=1",
+			"ID" : "000000003"
+		},
+		"3" : {
+			"Title" : "Corn on a Cob",
+			"Description" : "Just like at your school.",
+			"Ingredients" : ["Corn","Cob","Salt","Plate","Family"],
+			"PhotoLink" : "",
+			"ID" : "000000004"
+		},
+		"4" : {
+			"Title" : "Fried Chicken",
+			"Description" : "Tastes like KFC, but homemade.",
+			"Ingredients" : ["Chicken","Fryer","Someone who likes KFC","BBQ Sauce"],
+			"PhotoLink" : "https://www.tasteofhome.com/wp-content/uploads/2018/04/Crispy-Fried-Chicken_exps6445_PSG143429D03_05_5b_RMS-1-696x696.jpg",
+			"ID" : "000000005"
+		},
+		"5" : {
+			"Title" : "Burrito",
+			"Description" : "Straight out of the mexican kitchen.",
+			"Ingredients" : ["Tortilla","Chicken","Rice","Beans","Salsa"],
+			"PhotoLink" : "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/2/14/0/FNK_breakfast-burrito_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382542427230.jpeg",
+			"ID" : "000000006"
+		}
+    }
+}

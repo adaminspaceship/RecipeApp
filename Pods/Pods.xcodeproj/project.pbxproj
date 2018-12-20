@@ -1,0 +1,1256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ECCD84B144873ACD7BC84CEE7CA32D /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EACADE2F6CF9281F8B4FD9E5693935 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		074A8C55D6C173C75A9F092F526626FC /* Pods-recipeAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DD1008497D797410BD48C05C4A4E8A /* Pods-recipeAppUITests-dummy.m */; };
+		0950C7DF674BFDDE251B06E3620108AF /* Pods-recipeAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82AB672E51E14A8140CE5F34F2AB881C /* Pods-recipeAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B91BB8E452D2BBB0593637F372F4E7 /* ModernSearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77903F81CC881E272711468806A7502D /* ModernSearchBarCell.swift */; };
+		0C466BAAA29DDF209A3C9B7417F36D21 /* ModernSearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F760183FA2FED8D03C48B60EDA467BFB /* ModernSearchBarDelegate.swift */; };
+		2A87EBC20D558E5CD8DC5CD3CF874BF4 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421322B2A163D7E0EB037AC694847F17 /* SwiftyJSON.swift */; };
+		482FB5C646E6B4E49336B394085CE2D0 /* ModernSearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE58C1168C88C7812375F9E3DC1BDB7 /* ModernSearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EAEE5B187CD6E6234CD78660DB10AC /* ModernSearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB75E6A9FAB5EFEEF2F6A9CB73C1C295 /* ModernSearchBar-dummy.m */; };
+		544EFE7B3B63564A70C7CDD66C342F43 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910CAA97B687F6AAE56EB556BBCC36CA /* SwiftyJSON-dummy.m */; };
+		5DE69AEDA157A8C9164A2A17389A320E /* ModernSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BAF92CAA7496C47C02144E176856A /* ModernSearchBar.swift */; };
+		6118834A7498DF54994761B21F324BF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6B8FC5910F40031C33B92780F8FE3985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		711D5CEE90A15A541355BFBFD07535F7 /* ModernSearchBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0830E11EC3ACCCD67A1A4997E34A725 /* ModernSearchBarIcon.swift */; };
+		7233BD5835A97A308DDEA8E6AFC8E0B4 /* Pods-recipeApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F10E9F1C22C78828A851AC77BD5D1DD /* Pods-recipeApp-dummy.m */; };
+		7FAA4486C06C892CBF4DF5241D739ACC /* Pods-recipeAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B51B74DCBB03D3B7A8E37B910606040E /* Pods-recipeAppTests-dummy.m */; };
+		832C93B540C4CF25B6CB4600D7B62005 /* ModernSearchBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8171D107F3EF9A3D31B83B654E296716 /* ModernSearchBar.bundle */; };
+		8C0987B262B50067305E9849FADFEA1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9A77CDDDBD57290B7B2C4E45F34C9C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9BE72F4F7DA4823DFA74EF572BF6D112 /* Pods-recipeAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A060429C5B1872F3F7B4A37FAC4658 /* Pods-recipeAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A266F9CE9D03AB690F5DEC496CB58AE4 /* ModernSearchBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF174133E5A7E5ABDC0B1F39804FFB86 /* ModernSearchBarModel.swift */; };
+		A4D36C4D8867A12D3596F1712F621CDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CC1792EC4C09C0E9754B864DF7299D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9C0868B90DD76F24F482FF7B78CE25 /* Assets.xcassets */; };
+		E12F4A6E010820DBCD95B1A55F9F9A20 /* Pods-recipeApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2398C3C34342DE520FC14812E759AF /* Pods-recipeApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1792B2EDA1B12859643FDF0BAD1F303C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB2AD7E01AD0316EF625491781452BA9;
+			remoteInfo = "Pods-recipeApp";
+		};
+		22061F6E0598C5F13CA1C340590D35E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB2AD7E01AD0316EF625491781452BA9;
+			remoteInfo = "Pods-recipeApp";
+		};
+		D64E642622A3A804530F1E280D7118FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD7B8AF641D66E0D60F5040F37607DA;
+			remoteInfo = "ModernSearchBar-ModernSearchBar";
+		};
+		DE096A17EF5C191A1FAB73C62AD2F7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A4D9C803DDD328C7BC2F431F95370;
+			remoteInfo = SwiftyJSON;
+		};
+		E96436CF0703DB4913C26097947ECC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3947CFF5C2B3AE8B6E09B96A5789E59E;
+			remoteInfo = ModernSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000C0961257A52328EFAB0F0A1384466 /* Pods-recipeAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-recipeAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		062CDCC3F6D81F380DBB649F02D46DDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0971FD3F99F4ADC5747DB8613231CA50 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		0A2398C3C34342DE520FC14812E759AF /* Pods-recipeApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-recipeApp-umbrella.h"; sourceTree = "<group>"; };
+		0C9DCA65E169EA1FC6047B2B5870A173 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EB5E28A8A7E927B165B064D173B80E /* Pods-recipeApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-recipeApp-resources.sh"; sourceTree = "<group>"; };
+		16F324071CD595ADF823E7EBF25B25F2 /* Pods-recipeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-recipeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		194A0F9246E47DD55EBA99A50ABE2C63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21199CAAAAD00371C6474B633432BC23 /* Pods_recipeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_recipeApp.framework; path = "Pods-recipeApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		298B0AE2802F12E6BE5CC7E79E3D6E91 /* Pods-recipeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-recipeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FB3E9213ACF192296F202BBFB6307C2 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8A36F70500E0797FBD10451C2C2B38 /* Pods-recipeAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-recipeAppTests.modulemap"; sourceTree = "<group>"; };
+		3C0A3768ABAFB16FC85E2CD2967CA97C /* Pods-recipeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-recipeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9BAF92CAA7496C47C02144E176856A /* ModernSearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBar.swift; path = Pod/Classes/ModernSearchBar.swift; sourceTree = "<group>"; };
+		421322B2A163D7E0EB037AC694847F17 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		449D7A17FB5300A8AB442E080C4C9BE3 /* ModernSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModernSearchBar.framework; path = ModernSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479466EB382D26F23E6C5AF189D62C5B /* Pods-recipeAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-recipeAppUITests-resources.sh"; sourceTree = "<group>"; };
+		4AB469661EDB54714C8D692D9FFCA8FA /* Pods-recipeApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-recipeApp.modulemap"; sourceTree = "<group>"; };
+		4E9C0868B90DD76F24F482FF7B78CE25 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Pod/Assets.xcassets; sourceTree = "<group>"; };
+		576633A482C0B76854672A3EA694DD1C /* Pods-recipeApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-recipeApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6234B46223AFF8D98C2AEDB6E157A7F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696E793892CF5911BAEE918C58B5ADCE /* ModernSearchBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModernSearchBar.xcconfig; sourceTree = "<group>"; };
+		73CF6D3782ABA18E9C26F3923EF69D85 /* ResourceBundle-ModernSearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ModernSearchBar-Info.plist"; sourceTree = "<group>"; };
+		73FD2A11B7B6D23D9D65A46633B39FCE /* Pods_recipeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_recipeAppUITests.framework; path = "Pods-recipeAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B52EAB7F786ACD359BD41EDB779BF3 /* Pods-recipeAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-recipeAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77903F81CC881E272711468806A7502D /* ModernSearchBarCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBarCell.swift; path = Pod/Classes/ModernSearchBarCell.swift; sourceTree = "<group>"; };
+		7943DD96DC8FB779AF3D80CE6F893028 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8171D107F3EF9A3D31B83B654E296716 /* ModernSearchBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ModernSearchBar.bundle; path = "ModernSearchBar-ModernSearchBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DD1008497D797410BD48C05C4A4E8A /* Pods-recipeAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-recipeAppUITests-dummy.m"; sourceTree = "<group>"; };
+		82AB672E51E14A8140CE5F34F2AB881C /* Pods-recipeAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-recipeAppTests-umbrella.h"; sourceTree = "<group>"; };
+		85E0567A0F7DE9B6842478C443D66191 /* Pods_recipeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_recipeAppTests.framework; path = "Pods-recipeAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B129006CA1DB90498643C49F83E6F01 /* Pods-recipeAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-recipeAppUITests.modulemap"; sourceTree = "<group>"; };
+		8C86CE959CA7C3504636D38C8EEBA719 /* ModernSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModernSearchBar.modulemap; sourceTree = "<group>"; };
+		8E2CD714C8C524A36DA1BE1E2C708DED /* ModernSearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernSearchBar-prefix.pch"; sourceTree = "<group>"; };
+		910CAA97B687F6AAE56EB556BBCC36CA /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F10E9F1C22C78828A851AC77BD5D1DD /* Pods-recipeApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-recipeApp-dummy.m"; sourceTree = "<group>"; };
+		A0830E11EC3ACCCD67A1A4997E34A725 /* ModernSearchBarIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBarIcon.swift; path = Pod/Classes/ModernSearchBarIcon.swift; sourceTree = "<group>"; };
+		A3A060429C5B1872F3F7B4A37FAC4658 /* Pods-recipeAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-recipeAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		A77ED59331D4DAFF7E97E05579A6B706 /* Pods-recipeAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-recipeAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AF174133E5A7E5ABDC0B1F39804FFB86 /* ModernSearchBarModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBarModel.swift; path = Pod/Classes/ModernSearchBarModel.swift; sourceTree = "<group>"; };
+		B51B74DCBB03D3B7A8E37B910606040E /* Pods-recipeAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-recipeAppTests-dummy.m"; sourceTree = "<group>"; };
+		B77F7828E5414394CD767027ABE51CFA /* Pods-recipeAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-recipeAppTests-resources.sh"; sourceTree = "<group>"; };
+		B99F2FCFF20DAC0988D755CCF94A7CCB /* Pods-recipeAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-recipeAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9E14991A6BFB2AC252DC7DEFE2C498D /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		BB25429371873255F0A94C89E239C9AB /* Pods-recipeAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-recipeAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		BD4D00E5F68F4D854B31A2F3DDBEA6E2 /* Pods-recipeAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-recipeAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0D57CDAFA9FF34E81910AD6CE5545B2 /* Pods-recipeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-recipeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8EACADE2F6CF9281F8B4FD9E5693935 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		D2E730ACE8C5FD632C41D7F32371C2E2 /* Pods-recipeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-recipeApp.release.xcconfig"; sourceTree = "<group>"; };
+		D629909BB040094CCD02E4E45AB3520C /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		D870A5183B416EA985B450364A67B7C5 /* Pods-recipeApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-recipeApp-frameworks.sh"; sourceTree = "<group>"; };
+		F252720D41503B50AB41A632229EC531 /* Pods-recipeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-recipeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F760183FA2FED8D03C48B60EDA467BFB /* ModernSearchBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModernSearchBarDelegate.swift; path = Pod/Classes/ModernSearchBarDelegate.swift; sourceTree = "<group>"; };
+		FB75E6A9FAB5EFEEF2F6A9CB73C1C295 /* ModernSearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModernSearchBar-dummy.m"; sourceTree = "<group>"; };
+		FD112933D67018762F4C108202798B61 /* Pods-recipeApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-recipeApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFE58C1168C88C7812375F9E3DC1BDB7 /* ModernSearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModernSearchBar-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42359C29A5D82D3915667B4B44DE8BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD47B9AFF2AEB244264C9A8E5939324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A77CDDDBD57290B7B2C4E45F34C9C59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E02270212426D30766852B9CAC35D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0987B262B50067305E9849FADFEA1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E241C2F248DE540F7F4823F8240166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6118834A7498DF54994761B21F324BF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68E7A77EBB46330A579B5B2AAB03D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8FC5910F40031C33B92780F8FE3985 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2822CA4C505CA0F7C88443A052227C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D36C4D8867A12D3596F1712F621CDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09625A3FBE403419A3C422F800309287 /* ModernSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BAF92CAA7496C47C02144E176856A /* ModernSearchBar.swift */,
+				77903F81CC881E272711468806A7502D /* ModernSearchBarCell.swift */,
+				F760183FA2FED8D03C48B60EDA467BFB /* ModernSearchBarDelegate.swift */,
+				A0830E11EC3ACCCD67A1A4997E34A725 /* ModernSearchBarIcon.swift */,
+				AF174133E5A7E5ABDC0B1F39804FFB86 /* ModernSearchBarModel.swift */,
+				0DFCE22CE8C4FB3FBA1A277D65585D9D /* Resources */,
+				9B4C755DF6CA0F2BBA5E44BBD69F6768 /* Support Files */,
+			);
+			name = ModernSearchBar;
+			path = ModernSearchBar;
+			sourceTree = "<group>";
+		};
+		0DFCE22CE8C4FB3FBA1A277D65585D9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E9C0868B90DD76F24F482FF7B78CE25 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0E815DA019887A6FD9E5E286AA000419 /* Pods-recipeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				194A0F9246E47DD55EBA99A50ABE2C63 /* Info.plist */,
+				8B129006CA1DB90498643C49F83E6F01 /* Pods-recipeAppUITests.modulemap */,
+				000C0961257A52328EFAB0F0A1384466 /* Pods-recipeAppUITests-acknowledgements.markdown */,
+				BD4D00E5F68F4D854B31A2F3DDBEA6E2 /* Pods-recipeAppUITests-acknowledgements.plist */,
+				81DD1008497D797410BD48C05C4A4E8A /* Pods-recipeAppUITests-dummy.m */,
+				A77ED59331D4DAFF7E97E05579A6B706 /* Pods-recipeAppUITests-frameworks.sh */,
+				479466EB382D26F23E6C5AF189D62C5B /* Pods-recipeAppUITests-resources.sh */,
+				A3A060429C5B1872F3F7B4A37FAC4658 /* Pods-recipeAppUITests-umbrella.h */,
+				3C0A3768ABAFB16FC85E2CD2967CA97C /* Pods-recipeAppUITests.debug.xcconfig */,
+				298B0AE2802F12E6BE5CC7E79E3D6E91 /* Pods-recipeAppUITests.release.xcconfig */,
+			);
+			name = "Pods-recipeAppUITests";
+			path = "Target Support Files/Pods-recipeAppUITests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72A9EF27AC217521128000A71EA12E90 /* Pods-recipeApp */ = {
+			isa = PBXGroup;
+			children = (
+				7943DD96DC8FB779AF3D80CE6F893028 /* Info.plist */,
+				4AB469661EDB54714C8D692D9FFCA8FA /* Pods-recipeApp.modulemap */,
+				FD112933D67018762F4C108202798B61 /* Pods-recipeApp-acknowledgements.markdown */,
+				576633A482C0B76854672A3EA694DD1C /* Pods-recipeApp-acknowledgements.plist */,
+				9F10E9F1C22C78828A851AC77BD5D1DD /* Pods-recipeApp-dummy.m */,
+				D870A5183B416EA985B450364A67B7C5 /* Pods-recipeApp-frameworks.sh */,
+				15EB5E28A8A7E927B165B064D173B80E /* Pods-recipeApp-resources.sh */,
+				0A2398C3C34342DE520FC14812E759AF /* Pods-recipeApp-umbrella.h */,
+				16F324071CD595ADF823E7EBF25B25F2 /* Pods-recipeApp.debug.xcconfig */,
+				D2E730ACE8C5FD632C41D7F32371C2E2 /* Pods-recipeApp.release.xcconfig */,
+			);
+			name = "Pods-recipeApp";
+			path = "Target Support Files/Pods-recipeApp";
+			sourceTree = "<group>";
+		};
+		78F7C7F88B36314ADB8CE671A054320F /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				421322B2A163D7E0EB037AC694847F17 /* SwiftyJSON.swift */,
+				E541417C996940DBA9173147DE717A44 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EEF682DD2A4B549B9F1B5B3C89B807CB /* Pods */,
+				B9E22C4F6818B6EB17DC04B0DE685882 /* Products */,
+				815E749EFC1568263E250CB6C2248651 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		815E749EFC1568263E250CB6C2248651 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72A9EF27AC217521128000A71EA12E90 /* Pods-recipeApp */,
+				E22AC79D79A0AC32891C2C60B3C7A64D /* Pods-recipeAppTests */,
+				0E815DA019887A6FD9E5E286AA000419 /* Pods-recipeAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B4C755DF6CA0F2BBA5E44BBD69F6768 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6234B46223AFF8D98C2AEDB6E157A7F6 /* Info.plist */,
+				8C86CE959CA7C3504636D38C8EEBA719 /* ModernSearchBar.modulemap */,
+				696E793892CF5911BAEE918C58B5ADCE /* ModernSearchBar.xcconfig */,
+				FB75E6A9FAB5EFEEF2F6A9CB73C1C295 /* ModernSearchBar-dummy.m */,
+				8E2CD714C8C524A36DA1BE1E2C708DED /* ModernSearchBar-prefix.pch */,
+				FFE58C1168C88C7812375F9E3DC1BDB7 /* ModernSearchBar-umbrella.h */,
+				73CF6D3782ABA18E9C26F3923EF69D85 /* ResourceBundle-ModernSearchBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ModernSearchBar";
+			sourceTree = "<group>";
+		};
+		B9E22C4F6818B6EB17DC04B0DE685882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8171D107F3EF9A3D31B83B654E296716 /* ModernSearchBar.bundle */,
+				449D7A17FB5300A8AB442E080C4C9BE3 /* ModernSearchBar.framework */,
+				21199CAAAAD00371C6474B633432BC23 /* Pods_recipeApp.framework */,
+				85E0567A0F7DE9B6842478C443D66191 /* Pods_recipeAppTests.framework */,
+				73FD2A11B7B6D23D9D65A46633B39FCE /* Pods_recipeAppUITests.framework */,
+				2FB3E9213ACF192296F202BBFB6307C2 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22AC79D79A0AC32891C2C60B3C7A64D /* Pods-recipeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C9DCA65E169EA1FC6047B2B5870A173 /* Info.plist */,
+				3B8A36F70500E0797FBD10451C2C2B38 /* Pods-recipeAppTests.modulemap */,
+				B99F2FCFF20DAC0988D755CCF94A7CCB /* Pods-recipeAppTests-acknowledgements.markdown */,
+				76B52EAB7F786ACD359BD41EDB779BF3 /* Pods-recipeAppTests-acknowledgements.plist */,
+				B51B74DCBB03D3B7A8E37B910606040E /* Pods-recipeAppTests-dummy.m */,
+				BB25429371873255F0A94C89E239C9AB /* Pods-recipeAppTests-frameworks.sh */,
+				B77F7828E5414394CD767027ABE51CFA /* Pods-recipeAppTests-resources.sh */,
+				82AB672E51E14A8140CE5F34F2AB881C /* Pods-recipeAppTests-umbrella.h */,
+				F252720D41503B50AB41A632229EC531 /* Pods-recipeAppTests.debug.xcconfig */,
+				C0D57CDAFA9FF34E81910AD6CE5545B2 /* Pods-recipeAppTests.release.xcconfig */,
+			);
+			name = "Pods-recipeAppTests";
+			path = "Target Support Files/Pods-recipeAppTests";
+			sourceTree = "<group>";
+		};
+		E541417C996940DBA9173147DE717A44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				062CDCC3F6D81F380DBB649F02D46DDC /* Info.plist */,
+				D629909BB040094CCD02E4E45AB3520C /* SwiftyJSON.modulemap */,
+				B9E14991A6BFB2AC252DC7DEFE2C498D /* SwiftyJSON.xcconfig */,
+				910CAA97B687F6AAE56EB556BBCC36CA /* SwiftyJSON-dummy.m */,
+				0971FD3F99F4ADC5747DB8613231CA50 /* SwiftyJSON-prefix.pch */,
+				C8EACADE2F6CF9281F8B4FD9E5693935 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		EEF682DD2A4B549B9F1B5B3C89B807CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09625A3FBE403419A3C422F800309287 /* ModernSearchBar */,
+				78F7C7F88B36314ADB8CE671A054320F /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09460536F39F010AB634CEDF1B3BAED0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0950C7DF674BFDDE251B06E3620108AF /* Pods-recipeAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A8C4534C54F75F354A13C4488100A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482FB5C646E6B4E49336B394085CE2D0 /* ModernSearchBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487A13FFCA40F8C4AD350229B3A92ED5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE72F4F7DA4823DFA74EF572BF6D112 /* Pods-recipeAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61256DC967029B36BF7526CB3C4F58F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12F4A6E010820DBCD95B1A55F9F9A20 /* Pods-recipeApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6769F357B8C849EDF4C3F254C83E2874 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ECCD84B144873ACD7BC84CEE7CA32D /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		184A4D9C803DDD328C7BC2F431F95370 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C551C1557DEF1A87CB6B2C68F2D8331 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				6E0433F36AAC78CC9D9A30A4E30913A6 /* Sources */,
+				FC2822CA4C505CA0F7C88443A052227C /* Frameworks */,
+				6769F357B8C849EDF4C3F254C83E2874 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 2FB3E9213ACF192296F202BBFB6307C2 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3947CFF5C2B3AE8B6E09B96A5789E59E /* ModernSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554A48D5F9F79C38CF8986B9A13106B1 /* Build configuration list for PBXNativeTarget "ModernSearchBar" */;
+			buildPhases = (
+				646FC39744309060DCF713C303B15FDA /* Sources */,
+				87E02270212426D30766852B9CAC35D2 /* Frameworks */,
+				CB303A2AAB36CE89B70923F871856F34 /* Resources */,
+				25A8C4534C54F75F354A13C4488100A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B5FEAC3003A1E9B16481BBB47FC7D1 /* PBXTargetDependency */,
+			);
+			name = ModernSearchBar;
+			productName = ModernSearchBar;
+			productReference = 449D7A17FB5300A8AB442E080C4C9BE3 /* ModernSearchBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AD7B8AF641D66E0D60F5040F37607DA /* ModernSearchBar-ModernSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F998D847C43ABA6760F559C425CF26CD /* Build configuration list for PBXNativeTarget "ModernSearchBar-ModernSearchBar" */;
+			buildPhases = (
+				6153896BC4140EB9D0C6AD3C3ADEB9CF /* Sources */,
+				42359C29A5D82D3915667B4B44DE8BA7 /* Frameworks */,
+				E0B6FE78F3454C779FEE275E892DA196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ModernSearchBar-ModernSearchBar";
+			productName = "ModernSearchBar-ModernSearchBar";
+			productReference = 8171D107F3EF9A3D31B83B654E296716 /* ModernSearchBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7CFA19300B0EF49F343941EC6CFA2B33 /* Pods-recipeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366C9EE2FF8678A3127ED08AE59566CB /* Build configuration list for PBXNativeTarget "Pods-recipeAppUITests" */;
+			buildPhases = (
+				0CDF669D01415DBB92C8661DE6E81E8E /* Sources */,
+				F68E7A77EBB46330A579B5B2AAB03D1E /* Frameworks */,
+				487A13FFCA40F8C4AD350229B3A92ED5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A091D64C2CCBCB24FB23CDA3FD088C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-recipeAppUITests";
+			productName = "Pods-recipeAppUITests";
+			productReference = 73FD2A11B7B6D23D9D65A46633B39FCE /* Pods_recipeAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB2AD7E01AD0316EF625491781452BA9 /* Pods-recipeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332D715D0C9E7110178213904F92DE61 /* Build configuration list for PBXNativeTarget "Pods-recipeApp" */;
+			buildPhases = (
+				A17C1FCC473839D5019505ED545F5EB3 /* Sources */,
+				4DD47B9AFF2AEB244264C9A8E5939324 /* Frameworks */,
+				61256DC967029B36BF7526CB3C4F58F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD2D22D563B63C1E58376814D01F531 /* PBXTargetDependency */,
+				24D264C935B88C10DC41F6941C7DD6CD /* PBXTargetDependency */,
+			);
+			name = "Pods-recipeApp";
+			productName = "Pods-recipeApp";
+			productReference = 21199CAAAAD00371C6474B633432BC23 /* Pods_recipeApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F01173B290ED3A465BAE019FD57763CF /* Pods-recipeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AE69AA688972F43B960B53E29B79A1 /* Build configuration list for PBXNativeTarget "Pods-recipeAppTests" */;
+			buildPhases = (
+				A5EB5740B501B63D69F8ACD72B2654D5 /* Sources */,
+				D1E241C2F248DE540F7F4823F8240166 /* Frameworks */,
+				09460536F39F010AB634CEDF1B3BAED0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACD5E920D2827BF66BDFBE59C4721B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-recipeAppTests";
+			productName = "Pods-recipeAppTests";
+			productReference = 85E0567A0F7DE9B6842478C443D66191 /* Pods_recipeAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B9E22C4F6818B6EB17DC04B0DE685882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3947CFF5C2B3AE8B6E09B96A5789E59E /* ModernSearchBar */,
+				5AD7B8AF641D66E0D60F5040F37607DA /* ModernSearchBar-ModernSearchBar */,
+				CB2AD7E01AD0316EF625491781452BA9 /* Pods-recipeApp */,
+				F01173B290ED3A465BAE019FD57763CF /* Pods-recipeAppTests */,
+				7CFA19300B0EF49F343941EC6CFA2B33 /* Pods-recipeAppUITests */,
+				184A4D9C803DDD328C7BC2F431F95370 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB303A2AAB36CE89B70923F871856F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832C93B540C4CF25B6CB4600D7B62005 /* ModernSearchBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B6FE78F3454C779FEE275E892DA196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1792EC4C09C0E9754B864DF7299D66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CDF669D01415DBB92C8661DE6E81E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074A8C55D6C173C75A9F092F526626FC /* Pods-recipeAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6153896BC4140EB9D0C6AD3C3ADEB9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		646FC39744309060DCF713C303B15FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EAEE5B187CD6E6234CD78660DB10AC /* ModernSearchBar-dummy.m in Sources */,
+				5DE69AEDA157A8C9164A2A17389A320E /* ModernSearchBar.swift in Sources */,
+				09B91BB8E452D2BBB0593637F372F4E7 /* ModernSearchBarCell.swift in Sources */,
+				0C466BAAA29DDF209A3C9B7417F36D21 /* ModernSearchBarDelegate.swift in Sources */,
+				711D5CEE90A15A541355BFBFD07535F7 /* ModernSearchBarIcon.swift in Sources */,
+				A266F9CE9D03AB690F5DEC496CB58AE4 /* ModernSearchBarModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0433F36AAC78CC9D9A30A4E30913A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544EFE7B3B63564A70C7CDD66C342F43 /* SwiftyJSON-dummy.m in Sources */,
+				2A87EBC20D558E5CD8DC5CD3CF874BF4 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17C1FCC473839D5019505ED545F5EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7233BD5835A97A308DDEA8E6AFC8E0B4 /* Pods-recipeApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EB5740B501B63D69F8ACD72B2654D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAA4486C06C892CBF4DF5241D739ACC /* Pods-recipeAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12B5FEAC3003A1E9B16481BBB47FC7D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ModernSearchBar-ModernSearchBar";
+			target = 5AD7B8AF641D66E0D60F5040F37607DA /* ModernSearchBar-ModernSearchBar */;
+			targetProxy = D64E642622A3A804530F1E280D7118FA /* PBXContainerItemProxy */;
+		};
+		24D264C935B88C10DC41F6941C7DD6CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 184A4D9C803DDD328C7BC2F431F95370 /* SwiftyJSON */;
+			targetProxy = DE096A17EF5C191A1FAB73C62AD2F7F0 /* PBXContainerItemProxy */;
+		};
+		3BD2D22D563B63C1E58376814D01F531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModernSearchBar;
+			target = 3947CFF5C2B3AE8B6E09B96A5789E59E /* ModernSearchBar */;
+			targetProxy = E96436CF0703DB4913C26097947ECC1B /* PBXContainerItemProxy */;
+		};
+		4A091D64C2CCBCB24FB23CDA3FD088C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-recipeApp";
+			target = CB2AD7E01AD0316EF625491781452BA9 /* Pods-recipeApp */;
+			targetProxy = 1792B2EDA1B12859643FDF0BAD1F303C /* PBXContainerItemProxy */;
+		};
+		5ACD5E920D2827BF66BDFBE59C4721B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-recipeApp";
+			target = CB2AD7E01AD0316EF625491781452BA9 /* Pods-recipeApp */;
+			targetProxy = 22061F6E0598C5F13CA1C340590D35E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		10ACBE0D0B9DA9938A7502C51D46AE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F324071CD595ADF823E7EBF25B25F2 /* Pods-recipeApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-recipeApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-recipeApp/Pods-recipeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A32BF84EEB0356D18E689073C12FC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E730ACE8C5FD632C41D7F32371C2E2 /* Pods-recipeApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-recipeApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-recipeApp/Pods-recipeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DE27041EF059CF338BDFD7BB1A4F791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696E793892CF5911BAEE918C58B5ADCE /* ModernSearchBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModernSearchBar";
+				INFOPLIST_FILE = "Target Support Files/ModernSearchBar/ResourceBundle-ModernSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ModernSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		51CB5535A3A3480FBB43B8F8960232D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E14991A6BFB2AC252DC7DEFE2C498D /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54D24060AC465DE9B514E724C664872F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298B0AE2802F12E6BE5CC7E79E3D6E91 /* Pods-recipeAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-recipeAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-recipeAppUITests/Pods-recipeAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BB5B94FFBCB1BCE98789008B357C77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0A3768ABAFB16FC85E2CD2967CA97C /* Pods-recipeAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-recipeAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-recipeAppUITests/Pods-recipeAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A0FB8D0D6394D6C5049F0AD98507EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696E793892CF5911BAEE918C58B5ADCE /* ModernSearchBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModernSearchBar/ModernSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModernSearchBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModernSearchBar/ModernSearchBar.modulemap";
+				PRODUCT_MODULE_NAME = ModernSearchBar;
+				PRODUCT_NAME = ModernSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		969514E0F030AA77F4023D741B70B69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E14991A6BFB2AC252DC7DEFE2C498D /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A7065AB902BA93B1108014C2C5B38BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696E793892CF5911BAEE918C58B5ADCE /* ModernSearchBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModernSearchBar";
+				INFOPLIST_FILE = "Target Support Files/ModernSearchBar/ResourceBundle-ModernSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ModernSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9EA316E171D23B8625EDA5C7BB00AE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F252720D41503B50AB41A632229EC531 /* Pods-recipeAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-recipeAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-recipeAppTests/Pods-recipeAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C428C56F82C9B1ACE805B081771CA8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696E793892CF5911BAEE918C58B5ADCE /* ModernSearchBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ModernSearchBar/ModernSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModernSearchBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ModernSearchBar/ModernSearchBar.modulemap";
+				PRODUCT_MODULE_NAME = ModernSearchBar;
+				PRODUCT_NAME = ModernSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F72D60BA2F87AC81D21528E6F139F71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D57CDAFA9FF34E81910AD6CE5545B2 /* Pods-recipeAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-recipeAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-recipeAppTests/Pods-recipeAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332D715D0C9E7110178213904F92DE61 /* Build configuration list for PBXNativeTarget "Pods-recipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ACBE0D0B9DA9938A7502C51D46AE5E /* Debug */,
+				4A32BF84EEB0356D18E689073C12FC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34AE69AA688972F43B960B53E29B79A1 /* Build configuration list for PBXNativeTarget "Pods-recipeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA316E171D23B8625EDA5C7BB00AE8B /* Debug */,
+				F72D60BA2F87AC81D21528E6F139F71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366C9EE2FF8678A3127ED08AE59566CB /* Build configuration list for PBXNativeTarget "Pods-recipeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB5B94FFBCB1BCE98789008B357C77B /* Debug */,
+				54D24060AC465DE9B514E724C664872F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C551C1557DEF1A87CB6B2C68F2D8331 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969514E0F030AA77F4023D741B70B69B /* Debug */,
+				51CB5535A3A3480FBB43B8F8960232D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554A48D5F9F79C38CF8986B9A13106B1 /* Build configuration list for PBXNativeTarget "ModernSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C428C56F82C9B1ACE805B081771CA8AD /* Debug */,
+				7A0FB8D0D6394D6C5049F0AD98507EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F998D847C43ABA6760F559C425CF26CD /* Build configuration list for PBXNativeTarget "ModernSearchBar-ModernSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE27041EF059CF338BDFD7BB1A4F791 /* Debug */,
+				9A7065AB902BA93B1108014C2C5B38BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
